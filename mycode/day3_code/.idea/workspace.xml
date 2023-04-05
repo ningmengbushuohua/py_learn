@@ -4,7 +4,97 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c7a3074e-ca3b-434a-9290-eeef663ea008" name="Changes" comment="" />
+    <list default="true" id="c7a3074e-ca3b-434a-9290-eeef663ea008" name="Changes" comment="new">
+      <change beforePath="$PROJECT_DIR$/../.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/mycode.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day1_code/.idea/day1_code.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day1_code/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day1_code/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day1_code/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day1_code/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day1_code/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day1_code/first_python.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day1_code/fourth_py.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day1_code/second_py.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day1_code/third_py.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day2_code/.idea/day2_code.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day2_code/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day2_code/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day2_code/basic_data_type.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day2_code/format_outpint.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day2_code/format_output.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day2_code/temp_practice.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day2_code/variable_application.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day2_code/variable_define.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day2_code/variable_del.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day2_code/variable_type_change.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day2_code/variable_using.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/day3_code.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/operater_relation.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/operator_fuzhi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/operator_identity.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/operator_logical.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/operator_math.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/operator_member.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/operator_practice.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day4_code/.idea/day4_code.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day4_code/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day4_code/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day4_code/if_double.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day4_code/if_duo.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day4_code/if_qiantao.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day4_code/if_single.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day4_code/random_int_using.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day4_code/three_opearor.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day5_code/.idea/day5_code.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day5_code/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day5_code/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day5_code/cycle_practice.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day5_code/for_cycle.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day5_code/practice.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day5_code/qiantao_cycle.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day5_code/while_cycle.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day6_code/.idea/day6_code.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day6_code/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day6_code/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day6_code/break_continue.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day6_code/cycle_else.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day6_code/math_function.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day6_code/math_random.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day6_code/practice.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day7_code/.idea/day7_code.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day7_code/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day7_code/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day7_code/list_cycle_visit.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day7_code/list_define_and_character.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day7_code/list_practice.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day7_code/list_system_function.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day7_code/list_using_practice.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day7_code/list_visit.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day8_code/.idea/day8_code.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day8_code/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day8_code/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day8_code/list_copy.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day8_code/list_cut.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day8_code/list_practice2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day8_code/list_tuidao.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day9_code/.idea/day9_code.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day9_code/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day9_code/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day9_code/dict_bianli.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day9_code/dict_define.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day9_code/dict_practice.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day9_code/dict_using.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day9_code/dict_visit.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day9_code/tuple_using.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day9_code/two_metrix_list.py" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,7 +122,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "S:/workplace/mycode",
+    "last_opened_file_path": "S:/workplace/py_learn",
     "settings.editor.selected.configurable": "vcs.Git"
   }
 }]]></component>
@@ -161,6 +251,18 @@
       <option name="presentableId" value="Default" />
       <updated>1679821738826</updated>
     </task>
+    <task id="LOCAL-00001" summary="new">
+      <created>1680671173236</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1680671173236</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="new" />
+    <option name="LAST_COMMIT_MESSAGE" value="new" />
   </component>
 </project>
