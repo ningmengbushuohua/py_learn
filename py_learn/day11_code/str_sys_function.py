@@ -82,13 +82,90 @@ d4 = name.translate(table)
 print(d4)
 
 # e.将name变量对应的值根据"o"分割，并输出结果
+'''
+# split():使用指定的子字符串将原字符串进行分割，得到一个列表  【字符串-----》列表
+注意：字符串中的split只能进行分割有规律的字符串
+    如果需要分割没有规律的字符串，则使用正则表达式中的split()    ********
+'''
+# 1. 默认全分割
+name = "gouguoQc "
+list1 = name.split('o') # ['g', 'ugu', 'Qc ']
+print(list1)
+
+# 2.可以自定义分割次数
+name = "gouguoQcoooooop "
+list1 = name.split('o', 3)
+print(list1)    # ['g', 'ugu', 'Qc', 'ooooop ']
+
+# 3.如果分割符出现在字符串的最后一位，则最终列表的最后一个元素是''
+name = "gouguoQcooooooo"
+list1 = name.split('o')
+print(list1)    # ['g', 'ugu', 'Qc', '', '', '', '', '', '', '']
+
+# n.利用下划线将列表li = ['gou', 'guo', 'qi']的每一个元素拼接成字符串gou_guo_qi
+'''
+join()：使用指定的子字符串将列表中的元素连接【列表-----》字符串】	******
+'''
+li = ['gou', 'guo', 'qi']
+# 语法：连接字符串.join(列表)，注意此时该列表中的元素一定是字符串
+n = "_".join(li)
+print(n)
+n = "".join(li)
+print(n)
 
 # g.将name变量对应的值变大写，并输出结果
 # h.将name变量对应的值变成小写，并输出结果
-# i.请输出name变量对应的值的第二个字符
-# j.请输出name变量对应的值的前三个字符
-# k.请输出name变量对应值的后2个字符
-# l.请输出name变量中的值"Q的索引的位置
-# m.获取子序列，仅不包含最后一个字符，如：woaini则获取woain  root则获取roo
-# n.利用下划线将列表li = ['gou', 'guo', 'qi']的每一个元素拼接成字符串gou_guo_qi
+'''
+**********
+upper():小——》大
+lower():大---》小
+swapcase():大---》小  小----》大
+capitalize():首单词的首字母大写，其他全部小写，英文句子
+title():每个单词的首字母大写，其他全部小写
+'''
+name = 'this is a TEXT'
+print(name.upper())
+print(name.lower())
+print(name.swapcase())
+# 【面试题】
+print(name.title()) # This Is A Text
+print(name.capitalize())    # This is a text
 
+name = "gouguoQcQ"
+# i.请输出name变量对应的值的第二个字符
+print(name[1])  # 访问字符串中的字符
+# j.请输出name变量对应的值的前三个字符
+print(name[:3])
+# k.请输出name变量对应值的后2个字符
+print(name[-2:])
+print(name[len(name) - 2:])
+
+# m.获取子序列，仅不包含最后一个字符，如：woaini则获取woain  root则获取roo
+print(name[:-1])
+# l.请输出name变量中的值"Q的索引的位置
+'''
+find():从左往右进行检索，返回被查找的子字符串在原字符串中第一次出现的位置，
+        如果查找不到返回-1				********
+rfind():从右往左进行检索
+index()：从左往右进行检索，返回被查找的子字符串在原字符串中第一次出现的位置，
+        如果查找不到则直接报错		
+rindex():从右往左进行检索
+'''
+name = "gQugQoQcQ"
+# 1. index 和find 都是从左往右查找指定字符在原字符串中第一次出现的索引，默认全局查找
+l1 = name.index('Q')
+print(l1)
+l1 = name.find('Q')
+print(l1)
+
+# 2.给定一个索引的区间，可以局部查找，仍然遵循前闭后开区间
+# 3.如果子字符串，index会直接报错， find返回-1
+l1 = name.index('Q',1,3)
+print(l1)
+l1 = name.find('Q',1,3)
+print(l1)
+
+# l1 = name.index('Q',2,4)      # ValueError: substring not found
+# print(l1)
+l1 = name.find('Q',2,4)
+print(l1)   # -1
