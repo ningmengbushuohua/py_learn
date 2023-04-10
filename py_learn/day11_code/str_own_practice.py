@@ -31,6 +31,7 @@
 # # 军火走私所涉及的大使馆爆炸问题
 # # **走私所涉及的大使馆**问题
 
+# 4.输入一个用户名，判断用户名是否合法。用户名要求：由英文字母或数字组成，长度是6到12位
 # import string
 # user_name = input("用户名：")
 # count = 0
@@ -45,13 +46,24 @@
 # else:
 #     print('不合法')
 
+# 5.随机生成长度为5的验证码， 验证码的组成是英文字母或者数字
 # 生成 验证码
+# 方式一
 # import string
 # import random
 # random_str = ''
 # for _ in range(5):
 #     random_str += random.choice(string.ascii_letters + string.digits)
 # print(random_str)
+
+# 方式二
+import string,random
+random_str = "".join(random.choice(string.ascii_letters + string.digits) for _ in range(5))
+print(random_str)
+
+# 方式三
+random_str = "".join(random.sample(string.ascii_letters + string.digits, 5))
+print(random_str)
 
 # str1 = "1,2,3"
 # str_list = []
@@ -104,6 +116,8 @@
 #         common_str += ch
 #     print(common_str)
 
+# 4.如下字符串:  "01#张三#60-02#李四#90-03#王五#70",
+# 每一部分表示  学号#姓名#分数，提取学生信息存放于列表中，并按照成绩对学生降序排序
 str1 = '01#张三#60-02#李四#90-03#王五#70'
 information_list = []
 str1_list = str1.split('-')
@@ -111,6 +125,7 @@ print(str1_list)    # ['01#张三#60', '02#李四#90', '03#王五#70']
 for subli in str1_list:
     single_info_dict = {}
     subli = subli.split('#')    # ['01', '张三', '60'], ['02', '李四', '90'],['03', '王五', '70']
+    # information_list.append(dict(zip(['学号','姓名','成绩'], subli)))   ********
     single_info_dict['学号'] = subli[0]
     single_info_dict['姓名'] = subli[1]
     single_info_dict['分数'] = subli[2]
