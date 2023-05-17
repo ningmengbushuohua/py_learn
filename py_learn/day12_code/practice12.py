@@ -1,28 +1,37 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-def is_leap_year(year):
-    if (year % 4 == 0 and year % 100 != 0) or (year % 400 == 0):
-        print(f"{year}是闰年")
-    else:
-        print(f"{year}是平年")
+# 1.封装一个函数 验证一个年是否是闰年
+# def is_leap_year(year):
+#     if (year % 4 == 0 and year % 100 != 0) or (year % 400 == 0):
+#         print(f"{year}是闰年")
+#     else:
+#         print(f"{year}是平年")
 
+def is_leap_year(year):
+    # if (year % 4 == 0 and year % 100 != 0) or (year % 400 == 0):
+    #     return True
+    # return False
+    return (year % 4 == 0 and year % 100 != 0) or (year % 400 == 0)
+print(is_leap_year(2020))
+print(is_leap_year(2021))
 '''
 31: 1 3 5  7 8 10 12
 30:4 6 9 11
 2 :
 '''
 
-
-def every_month_day_num(month, is_leap_year=True):
+# 2.封装一个函数 获取指定月的天数
+def every_month_day_num(month, year):
     if month in [1,3,5,7,8,10,12]:
-        print(f"{month}月有31天")
+        return 31
     elif month == 2:
-        if is_leap_year:
-            print(f"{month}月有29天")
-        else:
-            print(f"{month}月有28天")
+        if is_leap_year(year):
+            return 29
+        return 28
     else:
-        print(f"{month}月有30天")
+        return 30
+
+print(every_month_day_num(2,2023))
 
 def is_which_season(month):
     if month in [3,4,5]:
@@ -34,16 +43,26 @@ def is_which_season(month):
     else:
         print('冬天')
 
+# 4.封装一个函数 验证指定数是否是质数
+# def is_prime_num(num):
+#     if num > 1:
+#         for i in range(2, num):
+#             if num % i == 0 :
+#                 print(f"{num}不是质数")
+#                 break
+#         else:
+#             print(f"{num}是质数")
 def is_prime_num(num):
-    if num > 1:
-        for i in range(2, num):
-            if num % i == 0 :
-                print(f"{num}不是质数")
-                break
-        else:
-            print(f"{num}是质数")
+    if num < 2:
+        return False
+    for i in range(2,num):
+        if num % i == 0:
+            return False
+    else:
+        return True
+print(is_prime_num(17))
+print(is_prime_num(10))
 
-is_prime_num(10)
 
 def huiwenshu(num):
     num_str = str(num)
@@ -57,10 +76,15 @@ def huiwenshu(num):
         print(f"{num}不是回文数")
 huiwenshu(122)
 
+# 6.封装一个函数，获取多个数中的最大值和平均值
+# def max_and_avarge(*num):
+#     print(f"最大值是{max(num)}")
+#     print(f"平均值是{sum(num) / len(num)}")
 def max_and_avarge(*num):
-    print(f"最大值是{max(num)}")
-    print(f"平均值是{sum(num) / len(num)}")
-max_and_avarge(15,56,89,8)
+    return max(num), sum(num) / len(num)
+
+print(max_and_avarge(15,56,89,8))
+print(max_and_avarge(15,8))
 
 def max_and_count(*num):
     print(f"平均值是{sum(num) / len(num)}")
