@@ -11,6 +11,7 @@ reponse = requests.get(url=url,headers=headers)
 if reponse.status_code == 200:
     print('请求成功')
     # print(reponse.text)
+    # + : 匹配一个或者多个 ？： 代表停下来，非贪婪
     regexp_str = '<span class="title-content-title">(.+?)</span>'
     r = re.findall(regexp_str, reponse.text)
     print(r)
