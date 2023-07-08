@@ -32,7 +32,9 @@ print(re.findall(r'(\d+)|[a-z]+','sds23224345--qreqca42431231'))
 # ['', '23224345', '', '42431231']
 print(re.findall(r'\d+|([a-z]+)','sds23224345--qreqca42431231'))
 # ['sds', '', 'qreqca', '']
-
+print(re.findall(r'(\d+)|([a-z]+)','sds23224345--qreqca42431231'))
+# [('', 'sds'), ('23224345', ''), ('', 'qreqca'), ('42431231', '')]
+print('*' * 87)
 
 # 5. 非捕获型分组
 # (?:xxxx)
