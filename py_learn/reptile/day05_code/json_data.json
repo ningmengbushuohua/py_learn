@@ -1,0 +1,10 @@
+{
+  "name": "JSON数据",
+  "age": 23,
+  "total_score": 365,
+  "level_A": true,
+  "address": null,
+  "family": ["爸爸","妈妈","爷爷"],
+  "desc": "整个JSON数据就是一个对象（使用{}括起来的部分）",
+  "scores": {"语文": 65,"数学": 78,"英语": 60.8}
+}
