@@ -7,6 +7,8 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait       # 显式等待模块
 from selenium.webdriver.support import expected_conditions as EC    # 期望模块
 
+# selenium  模块的学习： https://liushilive.github.io/github_selenium_docs_api_py/index.html
+
 option =webdriver.ChromeOptions()
 option.add_experimental_option('detach', True)
 option.add_argument('blink-settings=imagesEnabled=false')   # 图片不加载
