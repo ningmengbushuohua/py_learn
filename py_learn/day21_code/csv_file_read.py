@@ -5,7 +5,7 @@
 import csv
 # 1. 读取
 # 注意5：如果写入内容之后，每行后面出现了空行，则可以通过设置newline=''解决
-with open(r'aaa/file_csv.csv','r',encoding='utf-8') as f1:
+with open(r'aaa/file_csv.csv', 'r', encoding='utf-8') as f1:
     #注意2.读取csv文件时，使用csv.reader(),返回迭代器
     reader = csv.reader(f1)     # 相当于f1.read()
     print(reader)       # <_csv.reader object at 0x000001B176898D00>
@@ -15,7 +15,7 @@ with open(r'aaa/file_csv.csv','r',encoding='utf-8') as f1:
     print(datalist)
 
 # 2. 写入
-with open(r'aaa/t2.csv','w',encoding='utf-8',newline='') as f2:
+with open(r'aaa/t2.csv', 'w', encoding='utf-8', newline='') as f2:
     # 注意3. 写入csv文件时，使用csv.writer(),结合使用writerow() 或者writerows()完成写入操作
     writer = csv.writer(f2)
     # 注意4：writerow(可迭代对象) 或者writerows(可迭代对象)

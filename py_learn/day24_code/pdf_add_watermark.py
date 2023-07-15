@@ -20,5 +20,5 @@ for num in range(len(src_writer.pages)):
     # 添加
     writer.add_page(src_page)
 
-with open(r'data/XGBoost-水印.pdf','wb') as f:
+with open(r'data/XGBoost-水印.pdf', 'wb') as f:
     writer.write(f)

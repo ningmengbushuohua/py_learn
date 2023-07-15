@@ -37,7 +37,7 @@ r1 = json.dumps(data,ensure_ascii=False)
 print(r1)   # json 字符串
 print(type(r1))
 
-with open(r'aaa/country.json','w',encoding='utf-8') as f:
+with open(r'aaa/country.json', 'w', encoding='utf-8') as f:
     json.dump(data,f,ensure_ascii=False)
 
 # 2.反序列化
@@ -47,7 +47,7 @@ r2 = json.loads(r1)
 print(r2)
 print(type(r2))
 
-with open(r'aaa/country.json','r',encoding='utf-8') as f:
+with open(r'aaa/country.json', 'r', encoding='utf-8') as f:
     r3 = json.load(f)
     print(r3)
     print(type(r3))

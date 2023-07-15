@@ -38,5 +38,5 @@ for i  in range(len(reader.pages)):
 
 # 给pdf加密
 writer.encrypt('zhangliang')        # *****
-with open(r'data/XGBoost-加密.pdf','wb') as f:
+with open(r'data/XGBoost-加密.pdf', 'wb') as f:
     writer.write(f)

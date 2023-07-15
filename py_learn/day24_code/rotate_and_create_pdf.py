@@ -23,5 +23,5 @@ for i in range(len(reader.pages)):
 # 2.创建空白页
 blank_page = writer.add_blank_page()
 
-with open(r'data/XGBoost-旋转.pdf','wb') as f:
+with open(r'data/XGBoost-旋转.pdf', 'wb') as f:
     writer.write(f)

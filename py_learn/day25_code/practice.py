@@ -9,7 +9,7 @@ import re
     mobiletrain 云计算
 '''
 # my_practice
-with open(r'data/test.txt','r',encoding='utf-8') as f:
+with open(r'data/test.txt', 'r', encoding='utf-8') as f:
     info_str = f.readlines()
     result_info = []
     for info in info_str:
