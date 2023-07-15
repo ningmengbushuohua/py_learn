@@ -1,0 +1,22 @@
+<supermarket>
+		<!--  这是一条平平无奇的注释  -->
+    <name>沃尔玛</name>
+    <address>中国四川成都</address>
+    <staffs>
+        <name age="20" sex="男">张三</name>
+        <name age="30" sex="男">李四</name>
+        <name age="23" gender="女">王五</name>
+    </staffs>
+    <goods>
+        <name price="8">啤酒
+            <count>12</count>
+        </name>
+        <name price="3">饮料
+            <count>5</count>
+        </name>
+        <name price="1" count="10">矿泉水</name>
+        <name price="5">花生</name>
+        <name price="6">瓜子</name>
+        <name price="2">火腿肠</name>
+    </goods>
+</supermarket>
