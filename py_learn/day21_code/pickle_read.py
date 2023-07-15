@@ -15,11 +15,11 @@ p1 = Person('张三',23)
 
 # 1. 序列化【写入】
 # 注意; 需要pickle序列化对象，则文件的打开方式一定要使用wb 或者rb,类似于二进制文件的读写
-with open('aaa/a1.txt','wb') as f:
+with open('aaa/a1.txt', 'wb') as f:
     pickle.dump(p1,f)   # pickle.dump(写入的对象，文件对象)
 
 # 2. 反序列化【读取】
-with open('aaa/a1.txt','rb') as f:
+with open('aaa/a1.txt', 'rb') as f:
     r = pickle.load(f)      # pickel.load(文件对象)
     print(r)
     print(r.name,r.age)

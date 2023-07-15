@@ -30,7 +30,7 @@ def send_data():
     data['To'] = ';'.join(receviers)
 
     # 构建邮件
-    with open(r'data/致橡树.txt','r',encoding='gbk') as f:
+    with open(r'data/致橡树.txt', 'r', encoding='gbk') as f:
         content = f.read()
     # 文本对象
     part =  MIMEText(content,'base64','gbk')

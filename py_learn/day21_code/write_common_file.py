@@ -10,8 +10,8 @@
 '''
 # f1 = open(r'/aaa/file.txt','w',encoding='utf-8')        # 文件路径存在
 # f1 = open(r'aaa/file2.txt','w',encoding='utf-8')        # 文件路径不存在，自动创建
-f1 = open(r'aaa/file.txt','w',encoding='utf-8')
-fr = open(r'致青春.txt','r',encoding='utf-8')
+f1 = open(r'aaa/file.txt', 'w', encoding='utf-8')
+fr = open(r'致青春.txt', 'r', encoding='utf-8')
 # 2. 写入内容
 f1.write(fr.read())
 # 如果需要写入的数据量较大，则可以借助刷新提高写入效率

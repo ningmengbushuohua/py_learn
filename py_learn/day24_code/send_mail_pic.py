@@ -31,7 +31,7 @@ def send_data():
     data['To'] = ';'.join(receviers)
 
     # 读取图片内容
-    with open(r'data/img.png','rb') as f:
+    with open(r'data/img.png', 'rb') as f:
         img_data = f.read()
     # 方式一：构建图片对象【图片会被识别为福建】
     # img = MIMEImage(img_data)

@@ -1,13 +1,13 @@
 # with 上下文
 # 推荐使用with
 # 1.读取
-with open(r'致青春.txt','r',encoding='utf-8') as f:
+with open(r'致青春.txt', 'r', encoding='utf-8') as f:
     r1 = f.readlines()
     print(r1)
 # f.read()    # ValueError: I/O operation on closed file.
 
 # 2. 写入
-with open(r'aaa/file.txt','a',encoding='utf-8') as f1:
+with open(r'aaa/file.txt', 'a', encoding='utf-8') as f1:
     f1.write('nihaohtttttt')
     f1.flush()
 

@@ -17,7 +17,7 @@
 # 情况二
 # f2 = open(r'data\致青春1.txt')     #也可以是data/致青春1.txt   /；斜杠  \：反斜杠
 
-f = open(r'致青春.txt','r',encoding='utf-8')
+f = open(r'致青春.txt', 'r', encoding='utf-8')
 
 # 2.写入内容,read()/readline()/readlines()
 # 一次读取全部读取完毕，适用于数据量少的文件

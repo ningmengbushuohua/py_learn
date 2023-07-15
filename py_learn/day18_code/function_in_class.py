@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
+# 动态绑定属性
 # 特征，行为
 # 设计类
 class Person():
@@ -99,4 +100,7 @@ print(Number.add(19, 23))
 print(Number.sub(19, 23))
 print(Number.mul(19, 23))
 print(Number.div(19, 23))
+
+class Newqw():
+    pass
 

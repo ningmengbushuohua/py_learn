@@ -44,7 +44,7 @@
 # 3.
 name = input('请输入需要查询的名字')
 def read_data():
-    with open(r'data/kaifanglist.txt','r',encoding='utf-8') as f:
+    with open(r'data/kaifanglist.txt', 'r', encoding='utf-8') as f:
         result = f.readlines()
     return result
 def search_data(name):
